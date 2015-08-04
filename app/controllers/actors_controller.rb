@@ -36,7 +36,7 @@ class ActorsController < ApplicationController
 
     @actor.save
 
-    render("show")
+    redirect_to("http://localhost:3000/actors")
   end
 
   def destroy
